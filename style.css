@@ -3416,3 +3416,17 @@
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
+/***************************My Style**********************************/
+.login-buttonme
+{
+  background: #ebebeb;
+  border-radius: 50px;
+  padding: 4px 11px;
+  font-weight: 600;
+  margin-left: 25px;
+}
+.navbar-brand
+{
+  color:red !important;
+  font-weight: 600 !important;
+}
