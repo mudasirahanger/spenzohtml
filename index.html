@@ -1,291 +1,276 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="navbar.scss" />
-    <!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jeelan Healthcare</title>
+  <!-- Bootstrap 5.3.8 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <style>
+    :root { --brand:#0d6efd; }
+    body { background:#fff; }
+    .hero-section { background:#f8f9fa; padding:64px 0; text-align:center; }
+    .hero-section h1 { font-weight:700; font-size:clamp(1.6rem, 2.5vw, 2.4rem); }
+    .card-img-top.fit { height:160px; object-fit:cover; }
+    .avatar { width:80px; height:80px; border-radius:50%; object-fit:cover; }
+    .doctor-card { border:1px solid #eaeaea; border-radius:14px; padding:20px; text-align:center; transition:transform .18s, box-shadow .18s; height:100%; }
+    .doctor-card:hover { transform:translateY(-4px); box-shadow:0 8px 22px rgba(0,0,0,.08); }
+    .specialty-card { border:1px solid #eaeaea; border-radius:14px; overflow:hidden; height:100%; }
+    footer { background:#f8f9fa; padding:28px 0; margin-top:48px; }
+  </style>
 </head>
- <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-               <a class="navbar-brand" href="#">Jeelan</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Find Doctors</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Lab Tests</a>
-                    </li>
-                  </ul>
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                  <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="login-buttonme">
-                      <a class="nav-link active" aria-current="page" href="#">Login/SignUp</a>
-                    </li>
-              </div>
-            </div>
-          </nav>
-    <div class="main-page">
-      <div class="depth-frame">
-        <div class="div">
-          <div class="depth-frame-12">
-            <div class="depth-frame-13">
-            <div class="col-md-12">
-              <div class="depth-frame-14">
-                <div class="depth-frame-15">
-                  <div class="depth-frame-16">
-                    <div class="depth-frame-17">
-                    
-                      <div class="depth-frame-18"><p class="p">Find the right doctor for you</p></div>
-                      <div class="depth-frame-19">
-                        <p class="text-wrapper-5">Book appointments with experienced doctors across all specialties</p>
-                      </div>
-                      </div>
-                    
-                    <div class="depth-frame-20">
-                      <div class="depth-frame-7">
-                        <div class="depth-frame-21"><div class="depth-frame-22"></div></div>
-                        <div class="search-doctors-wrapper">
-                          <p class="search-doctors">
-                            Search&nbsp;&nbsp;doctors, clinics, hospitals, symptoms, or health issues
-                          </p>
-                        </div>
-                        <div class="depth-frame-23">
-                          <div class="depth-frame-24">
-                            <div class="depth-frame-25"><div class="text-wrapper-6">Search</div></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              </div>
-              <div class="col-md-12">
-              <div class="depth-frame-26"><div class="text-wrapper-7">Popular Specialties in Srinagar</div></div></div>
-              <div class="col-md-12">
-              <div class="depth-frame-27">
-                <div class="depth-frame-28">
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-30"></div>
-                    <div class="depth-frame-14"><div class="text-wrapper-8">Gynecologist</div></div>
-                  </div>
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-31"></div>
-                    <div class="depth-frame-14"><div class="text-wrapper-8">Dermatologist</div></div>
-                  </div>
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-32"></div>
-                    <div class="depth-frame-14"><div class="text-wrapper-8">Dentist</div></div>
-                  </div>
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-33"></div>
-                    <div class="depth-frame-14"><div class="text-wrapper-8">Pediatrician</div></div>
-                  </div>
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-34"></div>
-                    <div class="depth-frame-14"><div class="text-wrapper-8">General Physician</div></div>
-                  </div>
-                </div>
-                <div class="depth-frame-28">
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-35"></div>
-                    <div class="depth-frame-14"><div class="text-wrapper-8">Orthopedist</div></div>
-                  </div>
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-36"></div>
-                    <div class="depth-frame-14"><div class="text-wrapper-8">Ophthalmologist</div></div>
-                  </div>
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-37"></div>
-                    <div class="depth-frame-14"><div class="text-wrapper-8">ENT Specialist</div></div>
-                  </div>
-                </div>
-              </div>
-              </div>
-              <div class="col-md-12">
-              <div class="depth-frame-26"><p class="text-wrapper-7">Video Consult with Top Doctors</p></div></div>
-              <div class="col-md-12 depth-frame-38">
-                <div class="depth-frame-39">
-                  <div class="col-md-4 depth-frame-40">
-                    <div class="depth-frame-41"></div>
-                    <div class="depth-frame-14">
-                      <div class="depth-frame-14"><div class="text-wrapper-8">Dr. Sheema Jan</div></div>
-                      <div class="depth-frame-14"><div class="text-wrapper-9">Gynecologist</div></div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 depth-frame-40">
-                    <div class="depth-frame-42"></div>
-                    <div class="depth-frame-14">
-                      <div class="depth-frame-14"><div class="text-wrapper-8">Dr. Riyaz Nikoo</div></div>
-                      <div class="depth-frame-14"><div class="text-wrapper-9">Dermatologist</div></div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 depth-frame-40">
-                    <div class="depth-frame-43"></div>
-                    <div class="depth-frame-14">
-                      <div class="depth-frame-14"><div class="text-wrapper-8">Dr. Waseem Ahmad</div></div>
-                      <div class="depth-frame-14"><div class="text-wrapper-9">Dentist</div></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12">
-              <div class="depth-frame-26"><div class="text-wrapper-7">Top Doctors Near You</div></div></div>
-              <div class="col-md-12 depth-frame-27">
-                <div class="depth-frame-28">
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-44"></div>
-                    <div class="depth-frame-14">
-                      <div class="depth-frame-14"><div class="text-wrapper-8">Dr. Bilquess Shah</div></div>
-                      <div class="depth-frame-14"><div class="text-wrapper-9">Gynecologist</div></div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-45"></div>
-                    <div class="depth-frame-14">
-                      <div class="depth-frame-14"><div class="text-wrapper-8">Dr. Bashir Nikoo</div></div>
-                      <div class="depth-frame-14"><div class="text-wrapper-9">Dermatologist</div></div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-46"></div>
-                    <div class="depth-frame-14">
-                      <div class="depth-frame-14"><div class="text-wrapper-8">Dr. Rayees Bhat</div></div>
-                      <div class="depth-frame-14"><div class="text-wrapper-9">Dentist</div></div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 depth-frame-29">
-                    <div class="depth-frame-47"></div>
-                    <div class="depth-frame-14">
-                      <div class="depth-frame-14"><div class="text-wrapper-8">Dr. Nisar Shah</div></div>
-                      <div class="depth-frame-14"><div class="text-wrapper-9">Pediatrician</div></div>
-                    </div>
-                  </div>
-                  <!--<div class="depth-frame-29">
-                    <div class="depth-frame-48"></div>
-                    <div class="depth-frame-14">
-                      <div class="depth-frame-14"><div class="text-wrapper-8">Dr. Parveez Ahmad</div></div>
-                      <div class="depth-frame-14"><div class="text-wrapper-9">General Physician</div></div>
-                    </div>
-                  </div>-->
-                </div>
-                <div class="depth-frame-28">
-                  <div class="depth-frame-29">
-                    <div class="depth-frame-49"></div>
-                    <div class="depth-frame-14">
-                      <div class="depth-frame-14"><div class="text-wrapper-8">Dr. Omer Kumar</div></div>
-                      <div class="depth-frame-14"><div class="text-wrapper-9">Orthopedist</div></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="depth-frame-26"><div class="text-wrapper-7">Book Doctor Online</div></div>
-              <div class="depth-frame-50">
-                <div class="depth-frame-51">
-                  <div class="depth-frame-52"></div>
-                  <div class="depth-frame-53">
-                    <div class="depth-frame-54"><div class="text-wrapper">Doctor Online</div></div>
-                    <div class="depth-frame-55">
-                      <div class="depth-frame-56"><p class="text-wrapper-10">Get Doctor check up online</p></div>
-                      <div class="depth-frame-57">
-                        <div class="depth-frame-11"><div class="text-wrapper-11">Book Now</div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="depth-frame-26"><div class="text-wrapper-7">Book Lab Tests Online</div></div>
-              <div class="depth-frame-50">
-                <div class="depth-frame-51">
-                  <div class="depth-frame-58"></div>
-                  <div class="depth-frame-53">
-                    <div class="depth-frame-54"><div class="text-wrapper">Book Lab Tests Online</div></div>
-                    <div class="depth-frame-55">
-                      <div class="div-wrapper"><p class="text-wrapper-10">Get your lab tests done at home</p></div>
-                      <div class="depth-frame-57">
-                        <div class="depth-frame-11"><div class="text-wrapper-11">Book Now</div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          
-          <div class="col-lg-12 col-md-6 col-xs-6">
-  <div style="width: 176px; align-self: stretch; padding-bottom: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <img style="align-self: stretch; height: 176px; position: relative; border-radius: 12px" src="https://placehold.co/176x176" />
-    <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-      <div style="align-self: stretch; color: #121417; font-size: 16px; font-family: Manrope; font-weight: 500; line-height: 24px; word-wrap: break-word">Gynecologist</div>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Jeelan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="#doctors">Find Doctors</a></li>
+        <li class="nav-item"><a class="nav-link" href="#labtests">Lab Tests</a></li>
+      </ul>
+      <form class="d-flex me-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search doctors, clinics, tests..." aria-label="Search" />
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+      </form>
+      <a href="#" class="btn btn-primary">Login / Sign Up</a>
     </div>
   </div>
-  <div style="width: 176px; align-self: stretch; padding-bottom: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <img style="align-self: stretch; height: 176px; position: relative; border-radius: 12px" src="https://placehold.co/176x176" />
-    <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-      <div style="align-self: stretch; color: #121417; font-size: 16px; font-family: Manrope; font-weight: 500; line-height: 24px; word-wrap: break-word">Dermatologist</div>
-    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container">
+    <h1>Find the right doctor for you</h1>
+    <p class="lead mb-4">Book appointments with experienced doctors across all specialties</p>
+    <form class="row g-2 justify-content-center mt-1" id="searchForm">
+      <div class="col-12 col-md-5">
+        <input type="text" class="form-control" placeholder="Search by doctor, specialty, or symptom" name="q" required>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-success">Search</button>
+      </div>
+    </form>
   </div>
-  <div style="width: 176px; align-self: stretch; padding-bottom: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <img style="align-self: stretch; height: 176px; position: relative; border-radius: 12px" src="https://placehold.co/176x176" />
-    <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-      <div style="align-self: stretch; color: #121417; font-size: 16px; font-family: Manrope; font-weight: 500; line-height: 24px; word-wrap: break-word">Dentist</div>
-    </div>
-  </div>
-  <div style="width: 176px; align-self: stretch; padding-bottom: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <img style="align-self: stretch; height: 176px; position: relative; border-radius: 12px" src="https://placehold.co/176x176" />
-    <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-      <div style="align-self: stretch; color: #121417; font-size: 16px; font-family: Manrope; font-weight: 500; line-height: 24px; word-wrap: break-word">Pediatrician</div>
-    </div>
-  </div>
-  <div style="width: 176px; align-self: stretch; padding-bottom: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <img style="align-self: stretch; height: 176px; position: relative; border-radius: 12px" src="https://placehold.co/176x176" />
-    <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-      <div style="align-self: stretch; color: #121417; font-size: 16px; font-family: Manrope; font-weight: 500; line-height: 24px; word-wrap: break-word">General Physician</div>
-    </div>
-  </div>
-</div>
-          
-          
-          
-          
-          
-          
-          
-          <div class="depth-frame-59">
-            <div class="depth-frame-60">
-              <div class="depth-frame-61">
-                <div class="depth-frame-62">
-                  <div class="depth-frame-63"><div class="div-2">About Us</div></div>
-                  <div class="depth-frame-63"><div class="div-2">Contact Us</div></div>
-                  <div class="depth-frame-63"><div class="div-2">Privacy Policy</div></div>
-                  <div class="depth-frame-63"><div class="div-2">Terms of Service</div></div>
-                </div>
-                <div class="powered-by-wrapper">
-                  <p class="div-2">
-                    <span class="span">Powered by</span>
-                    <span class="text-wrapper-12"> Associated Media</span>
-                    <span class="span"> @2024 Spenzo. All rights reserved.</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+</section>
+
+<!-- Popular Specialties (with images) -->
+<section class="py-5" id="specialties">
+  <div class="container">
+    <h2 class="mb-4 text-center">Popular Specialties in Srinagar</h2>
+    <div class="row g-4">
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="specialty-card h-100">
+          <img class="card-img-top fit" src="images/gynea.jpg" alt="Gynecologist">
+          <div class="p-3 text-center fw-semibold">Gynecologist</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="specialty-card h-100">
+          <img class="card-img-top fit" src="images/derma.png" alt="Dermatologist">
+          <div class="p-3 text-center fw-semibold">Dermatologist</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="specialty-card h-100">
+          <img class="card-img-top fit" src="images/pediatric.jpg" alt="Pediatrician">
+          <div class="p-3 text-center fw-semibold">Pediatrician</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="specialty-card h-100">
+          <img class="card-img-top fit" src="images/physician.png" alt="General Physician">
+          <div class="p-3 text-center fw-semibold">General Physician</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="specialty-card h-100">
+          <img class="card-img-top fit" src="https://placehold.co/600x400?text=Orthopedics" alt="Orthopedist">
+          <div class="p-3 text-center fw-semibold">Orthopedist</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="specialty-card h-100">
+          <img class="card-img-top fit" src="https://placehold.co/600x400?text=Ophthalmology" alt="Ophthalmologist">
+          <div class="p-3 text-center fw-semibold">Ophthalmologist</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="specialty-card h-100">
+          <img class="card-img-top fit" src="https://placehold.co/600x400?text=ENT" alt="ENT Specialist">
+          <div class="p-3 text-center fw-semibold">ENT Specialist</div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</section>
+
+<!-- Video Consult with Top Doctors (with profile images) -->
+<section class="py-5 bg-light" id="consult">
+  <div class="container">
+    <h2 class="mb-4 text-center">Video Consult with Top Doctors</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="doctor-card">
+          <img src="https://i.pravatar.cc/160?img=12" alt="Dr. Sheema Jan" class="avatar mb-2">
+          <h6 class="mb-1">Dr. Sheema Jan</h6>
+          <small class="text-muted d-block mb-2">Gynecologist</small>
+          <a href="#bookModal" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal">Consult Now</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="doctor-card">
+          <img src="https://i.pravatar.cc/160?img=32" alt="Dr. Riyaz Nikoo" class="avatar mb-2">
+          <h6 class="mb-1">Dr. Riyaz Nikoo</h6>
+          <small class="text-muted d-block mb-2">Dermatologist</small>
+          <a href="#bookModal" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal">Consult Now</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="doctor-card">
+          <img src="https://i.pravatar.cc/160?img=5" alt="Dr. Waseem Ahmad" class="avatar mb-2">
+          <h6 class="mb-1">Dr. Waseem Ahmad</h6>
+          <small class="text-muted d-block mb-2">Dentist</small>
+          <a href="#bookModal" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal">Consult Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Top Doctors Near You (with profile images) -->
+<section class="py-5" id="doctors">
+  <div class="container">
+    <h2 class="mb-4 text-center">Top Doctors Near You</h2>
+    <div class="row g-4">
+      <div class="col-6 col-md-3">
+        <div class="doctor-card">
+          <img src="https://i.pravatar.cc/160?img=47" alt="Dr. Bilquess Shah" class="avatar mb-2">
+          <h6 class="mb-1">Dr. Bilquess Shah</h6>
+          <small class="text-muted">Gynecologist</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="doctor-card">
+          <img src="https://i.pravatar.cc/160?img=20" alt="Dr. Bashir Nikoo" class="avatar mb-2">
+          <h6 class="mb-1">Dr. Bashir Nikoo</h6>
+          <small class="text-muted">Dermatologist</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="doctor-card">
+          <img src="https://i.pravatar.cc/160?img=15" alt="Dr. Rayees Bhat" class="avatar mb-2">
+          <h6 class="mb-1">Dr. Rayees Bhat</h6>
+          <small class="text-muted">Dentist</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="doctor-card">
+          <img src="https://i.pravatar.cc/160?img=8" alt="Dr. Nisar Shah" class="avatar mb-2">
+          <h6 class="mb-1">Dr. Nisar Shah</h6>
+          <small class="text-muted">Pediatrician</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Booking Sections with images -->
+<section class="py-5 bg-light" id="online">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-md-6">
+        <img src="images/booking.jpg" class="img-fluid rounded" alt="Doctor Online">
+      </div>
+      <div class="col-md-6">
+        <h3>Doctor Online</h3>
+        <p>Get doctor checkups online from the comfort of your home.</p>
+        <a href="#bookModal" class="btn btn-success" data-bs-toggle="modal">Book Now</a>
+      </div>
+    </div>
+    <hr class="my-5">
+    <div class="row align-items-center g-4" id="labtests">
+      <div class="col-md-6 order-md-2">
+        <img src="images/booking.jpg" class="img-fluid rounded" alt="Lab Tests at Home">
+      </div>
+      <div class="col-md-6 order-md-1">
+        <h3>Book Lab Tests Online</h3>
+        <p>Get your lab tests done at home with reliable results.</p>
+        <a href="#bookModal" class="btn btn-success" data-bs-toggle="modal">Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Simple Booking Modal (optional, demonstrates inputs) -->
+<div class="modal fade" id="bookModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Book an Appointment</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Phone</label>
+            <input type="tel" class="form-control" placeholder="98765 43210" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Select Specialty / Test</label>
+            <select class="form-select" required>
+              <option value="" selected disabled>Choose...</option>
+              <option>Gynecology</option>
+              <option>Dermatology</option>
+              <option>Pediatrics</option>
+              <option>General Medicine</option>
+              <option>Orthopedics</option>
+              <option>Ophthalmology</option>
+              <option>ENT</option>
+              <option>Lab Test</option>
+            </select>
+          </div>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Preferred Date</label>
+              <input type="date" class="form-control" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Preferred Time</label>
+              <input type="time" class="form-control" required>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Confirm Booking</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row mb-3 text-center text-md-start">
+      <div class="col-md-3"><a href="#">About Us</a></div>
+      <div class="col-md-3"><a href="#">Contact Us</a></div>
+      <div class="col-md-3"><a href="#">Privacy Policy</a></div>
+      <div class="col-md-3"><a href="#">Terms of Service</a></div>
+    </div>
+    <p class="mb-0 text-center">Powered by <strong>Associated Media</strong> ©2024 Spenzo. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
 </html>
