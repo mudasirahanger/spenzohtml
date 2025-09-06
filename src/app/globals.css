@@ -1,4 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -7,6 +10,8 @@ html,
 body {
   margin: 0px;
   height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
 }
 /* a blue color as a generic focus style */
 button:focus-visible {
@@ -16,3 +21,7 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
+
+
+
+
