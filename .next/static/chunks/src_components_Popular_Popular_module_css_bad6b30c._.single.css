@@ -1,0 +1,35 @@
+/* [project]/src/components/Popular/Popular.module.css [app-client] (css) */
+.Popular-module__QXqoKq__card-img-top.Popular-module__QXqoKq__fit {
+  object-fit: cover;
+  height: 160px;
+}
+
+.Popular-module__QXqoKq__avatar {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.Popular-module__QXqoKq__doctor-card {
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  height: 100%;
+  padding: 20px;
+  transition: transform .18s, box-shadow .18s;
+}
+
+.Popular-module__QXqoKq__doctor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .08);
+}
+
+.Popular-module__QXqoKq__specialtyCard {
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=src_components_Popular_Popular_module_css_bad6b30c._.single.css.map*/

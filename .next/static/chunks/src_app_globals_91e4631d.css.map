@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 2, "column": 0}, "map": {"version":3,"sources":["file:///Applications/XAMPP/xamppfiles/htdocs/nad/html2pdf/dev/spenzohtml/src/app/globals.css"],"sourcesContent":["@import url(\"https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css\");\n* {\n  -webkit-font-smoothing: antialiased;\n  box-sizing: border-box;\n}\nhtml,\nbody {\n  margin: 0px;\n  height: 100%;\n}\n/* a blue color as a generic focus style */\nbutton:focus-visible {\n  outline: 2px solid #4a90e2 !important;\n  outline: -webkit-focus-ring-color auto 5px !important;\n}\na {\n  text-decoration: none;\n}\n\n\n\n\n"],"names":[],"mappings":"AACA;;;;;AAIA;;;;;AAMA;;;;;AAIA","debugId":null}}]
+}

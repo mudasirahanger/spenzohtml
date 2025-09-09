@@ -1,0 +1,23 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-optical-sizing: auto;
+  height: 100%;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=src_app_globals_css_bad6b30c._.single.css.map*/

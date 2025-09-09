@@ -1,0 +1,67 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__navbar-brand {
+  color: red !important;
+  font-weight: 600 !important;
+}
+
+.page-module___8aEwW__login-buttonme {
+  background: #ebebeb;
+  border-radius: 50px;
+  margin-left: 25px;
+  padding: 4px 11px;
+  font-weight: 600;
+}
+
+:root {
+  --brand: #0d6efd;
+}
+
+body {
+  background: #fff;
+}
+
+.page-module___8aEwW__hero-section {
+  text-align: center;
+  background: #d3be2b;
+  padding: 177px 0;
+}
+
+.page-module___8aEwW__hero-section h1 {
+  font-size: max(1.6rem, min(2.5vw, 2.4rem));
+  font-weight: 700;
+}
+
+.page-module___8aEwW__card-img-top.page-module___8aEwW__fit {
+  object-fit: cover;
+  height: 160px;
+}
+
+.page-module___8aEwW__avatar {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.page-module___8aEwW__doctor-card {
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  height: 100%;
+  padding: 20px;
+  transition: transform .18s, box-shadow .18s;
+}
+
+.page-module___8aEwW__doctor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .08);
+}
+
+.page-module___8aEwW__specialty-card {
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=src_app_page_module_2aa510fc.css.map*/

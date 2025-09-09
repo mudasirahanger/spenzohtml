@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/page.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"avatar\": \"page-module___8aEwW__avatar\",\n  \"card-img-top\": \"page-module___8aEwW__card-img-top\",\n  \"doctor-card\": \"page-module___8aEwW__doctor-card\",\n  \"fit\": \"page-module___8aEwW__fit\",\n  \"hero-section\": \"page-module___8aEwW__hero-section\",\n  \"login-buttonme\": \"page-module___8aEwW__login-buttonme\",\n  \"navbar-brand\": \"page-module___8aEwW__navbar-brand\",\n  \"specialty-card\": \"page-module___8aEwW__specialty-card\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA"}}]
+}
