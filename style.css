@@ -81,3 +81,160 @@ footer a
   color:#000 !important;
   text-decoration: none;
 }
+/*************************DOCTORS PAGE STYLING*******************************/
+/* Global */
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Navbar */
+.navbar .nav-link {
+  font-size: 15px;
+  color: #444 !important;
+}
+.navbar .nav-link:hover {
+  color: #007bff !important;
+}
+.search-box {
+  border-radius: 50px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+/* Filters */
+.filters {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+}
+.filter-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+}
+.form-check-label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Doctor Cards */
+.doctor-cardpage {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+.doctor-cardpage:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+.doctor-cardpage h5 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.doctor-cardpage p {
+  font-size: 14px;
+}
+.doctor-img {
+  max-width: 225px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  height: 150px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  max-width: 220px;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Pagination */
+.pagination .page-link {
+  color: #007bff;
+  border: none;
+  font-size: 14px;
+}
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-radius: 8px;
+}
+/**********************Doctors Profile Styling**************/
+
+
+.card h3 {
+  font-weight: 600;
+}
+
+.calendar .col {
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calendar .col:hover {
+  background: #e9ecef;
+}
+.doctors-profile h5
+{
+  padding:22px 0;
+}
+.specia li
+{
+  padding:12px;
+}
+/******************Appointment Styling*****************/
+
+/* Breadcrumb */
+.breadcrumb {
+  background: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  color: #6c757d;
+}
+
+/* Inputs */
+.custom-input {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  padding: 10px 14px !important;
+  font-size: 15px;
+}
+.custom-input:focus {
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 0 2px rgba(13,110,253,.2) !important;
+}
+
+/* Payment radio buttons */
+.list-group-item {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.list-group-item:hover {
+  background: #f9f9f9;
+}
+
+/* Button */
+.confirm-btn {
+  background-color: #0d6efd;
+  border-radius: 50px;
+  font-weight: 500;
+  padding: 12px 0;
+  border: none;
+}
+.confirm-btn:hover {
+  background-color: #0056d2;
+}
