@@ -1,0 +1,35 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__card-img-top.page-module___8aEwW__fit {
+  object-fit: cover;
+  height: 160px;
+}
+
+.page-module___8aEwW__avatar {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.page-module___8aEwW__doctor-card {
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  height: 100%;
+  padding: 20px;
+  transition: transform .18s, box-shadow .18s;
+}
+
+.page-module___8aEwW__doctor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .08);
+}
+
+.page-module___8aEwW__specialty-card {
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=src_app_page_module_css_bad6b30c._.single.css.map*/

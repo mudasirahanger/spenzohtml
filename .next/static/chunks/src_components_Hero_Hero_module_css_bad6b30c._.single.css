@@ -1,0 +1,13 @@
+/* [project]/src/components/Hero/Hero.module.css [app-client] (css) */
+.Hero-module__JgYmMq__heroSection {
+  text-align: center;
+  background: #d3be2b;
+  padding: 177px 0;
+}
+
+.Hero-module__JgYmMq__heroSection h1 {
+  font-size: max(1.6rem, min(2.5vw, 2.4rem));
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=src_components_Hero_Hero_module_css_bad6b30c._.single.css.map*/

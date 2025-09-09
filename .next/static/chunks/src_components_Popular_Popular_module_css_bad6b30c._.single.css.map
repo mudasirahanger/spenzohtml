@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/Popular/Popular.module.css"],"sourcesContent":["/* Image Fit */\n.card-img-top.fit {\n  height: 160px;\n  object-fit: cover;\n}\n\n/* Doctor Cards */\n.avatar {\n  width: 80px;\n  height: 80px;\n  border-radius: 50%;\n  object-fit: cover;\n}\n\n.doctor-card {\n  border: 1px solid #eaeaea;\n  border-radius: 14px;\n  padding: 20px;\n  text-align: center;\n  transition: transform 0.18s, box-shadow 0.18s;\n  height: 100%;\n}\n\n.doctor-card:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);\n}\n\n/* Specialty Cards */\n.specialtyCard {\n  border: 1px solid #eaeaea;\n  border-radius: 14px;\n  overflow: hidden;\n  height: 100%;\n}\n"],"names":[],"mappings":"AACA;;;;;AAMA;;;;;;;AAOA;;;;;;;;;AASA;;;;;AAMA"}}]
+}
