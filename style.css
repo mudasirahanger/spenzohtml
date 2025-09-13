@@ -238,3 +238,52 @@ body {
 .confirm-btn:hover {
   background-color: #0056d2;
 }
+/**************************Doctors profile Dashboard Styling*****************************/
+:root {
+  --primary-color: #1193d4;
+}
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: #fff;
+}
+
+.sidebar .profile-img {
+  width: 48px;
+  height: 48px;
+  background: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDxQoJw7T0mfoWznPFz6My5dAdhWOaDiPyKjpa3OXvbTBSZeir_L0UziLvlnVw1H7Vgn-zmjFem2AxSGHjksJnaWOc5_GSl-xxiNBHUL10jttV3xBpZRmYAKV19wGeupi0oWBg1epAS_CCIFDPkO5L6pU3f8RSBJi2gJ3R09iImdm2Iyh7r5LZCyX86odAd0OEKjVSkDjPhv-lASf4bOVaaPpq-Q-REoSSiiRYJoVxvtBCX3pEjiT4uK9j3syFr6Vk5kmftI8NtxJc") center/cover no-repeat;
+}
+
+.sidebar .nav-link {
+  border-radius: .5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+  background: #f8f9fa;
+}
+
+.sidebar .nav-link.active {
+  background: #e7f3fb;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Patient images */
+.patient-img, .query-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.patient-img {
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAoU6nzztJBsiaaH_tSdp2f3-cbgR5TWmumJBDskq0OqU9oMc4Ub30DRdciaj5QJhWg9LluiGHmwF8DleY6i34MNXJnorQepkoCcHHbFLylFiTe5S6soOEmzbdCtcUHbcZtJ3gKfifH_aVooJ8PoktTAFfVQXLchouGl6w5X_PVldaYKnZ45Ls5sfIg2WmGXkXpaifEnsBiRjzYj6brX6SO7SEi85LRj1BBGe1euOwnspgRTELT0r0OGVgdZLF1ByGjQx9CgiWesXs");
+}
+
+.query-img {
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAcGZbv45zsww3hsXqmuJmS7fcahM8Yzx05eCnD9fE4-cz40WBjLu0PiG415GrpoKm5cHown6G6f6phjObpcOKDU944OAEyVjMumKWlZJLR4FoYS8InTKOaq7ezPmLIxJBwQPsQTmL0Dbu8kEtGWnBcB9wewe3JBRU_QzHkG6IuNg62Fjfg9oeIqPIKAAlpF483Wii5hakoYtm3vEJ6Sla9i4r6VvABShbuGFzC-nXFV974EDM2dgc4hDWNA0gqLO2pwj3YCq49RNY");
+}
+
