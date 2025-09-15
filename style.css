@@ -242,7 +242,7 @@ body {
 :root {
   --primary-color: #1193d4;
 }
-/* Sidebar */
+git /* Sidebar */
 .sidebar {
   width: 260px;
   background: #fff;
@@ -286,4 +286,124 @@ body {
 .query-img {
   background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAcGZbv45zsww3hsXqmuJmS7fcahM8Yzx05eCnD9fE4-cz40WBjLu0PiG415GrpoKm5cHown6G6f6phjObpcOKDU944OAEyVjMumKWlZJLR4FoYS8InTKOaq7ezPmLIxJBwQPsQTmL0Dbu8kEtGWnBcB9wewe3JBRU_QzHkG6IuNg62Fjfg9oeIqPIKAAlpF483Wii5hakoYtm3vEJ6Sla9i4r6VvABShbuGFzC-nXFV974EDM2dgc4hDWNA0gqLO2pwj3YCq49RNY");
 }
+/******************************************User Profile Styling**************************************/
+:root {
+  --primary-color: #0579c7;
+  --sidebar-bg: #ffffff;
+  --sidebar-hover: #f5f7fa;
+  --sidebar-active-bg: #e9f3fb;
+  --text-muted: #6c757d;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: var(--sidebar-bg);
+  border-right: 1px solid #e5e7eb;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+.sidebar .nav-link {
+  color: #495057;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0.65rem 0.75rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar .nav-link:hover {
+  background: var(--sidebar-hover);
+  color: var(--primary-color);
+}
+
+.sidebar .nav-link.active {
+  background: var(--sidebar-active-bg);
+  color: var(--primary-color);
+  font-weight: 600;
+  border-left: 4px solid var(--primary-color);
+  padding-left: 0.5rem;
+}
+
+/* Avatar */
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 6px;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background-color: #0466a9;
+  border-color: #0466a9;
+}
+
+/* Tabs */
+.nav-tabs {
+  border: none;
+  gap: 1.5rem;
+}
+.nav-tabs .nav-link {
+  border: none;
+  background: transparent;
+  color: #6c757d;
+  font-weight: 500;
+}
+.nav-tabs .nav-link.active {
+  color: var(--primary-color);
+  font-weight: 600;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+/* Forms */
+.form-control,
+.form-select,
+textarea.form-control {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 0.65rem 0.75rem;
+  font-size: 14px;
+}
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.15rem rgba(5, 121, 199, 0.25);
+}
+
+/* Section titles */
+h1, h2, h5 {
+  color: #1f2937;
+}
+h1.h3 {
+  font-weight: 700;
+}
+h2.h5 {
+  font-weight: 600;
+}
+
+/* Update Profile button */
+form button.btn {
+  min-width: 150px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+  .sidebar {
+    display: none !important;
+  }
+}
+
 
