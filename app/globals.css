@@ -1,0 +1,409 @@
+.navbar-brand
+{
+  color:red !important;
+  font-weight: 600 !important;
+}
+/***************************My Style**********************************/
+.login-buttonme
+{
+  background: #ebebeb;
+  border-radius: 50px;
+  padding: 4px 11px;
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+/****************************New index style*************************/
+:root {
+  --brand: #0d6efd;
+}
+
+body {
+  background: #fff;
+}
+
+/* Hero Section */
+.hero-section {
+  background: #d3be2b;
+  padding: 177px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  font-size: clamp(1.6rem, 2.5vw, 2.4rem);
+}
+
+/* Image Fit */
+.card-img-top.fit {
+  height: 160px;
+  object-fit: cover;
+}
+
+/* Doctor Cards */
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.doctor-card {
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.18s, box-shadow 0.18s;
+  height: 100%;
+}
+
+.doctor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+/* Specialty Cards */
+.specialty-card {
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Footer */
+footer {
+  background: #d3be2bfa;
+  padding: 28px 0;
+  margin-top: 48px;
+}
+footer a
+{
+  color:#000 !important;
+  text-decoration: none;
+}
+/*************************DOCTORS PAGE STYLING*******************************/
+/* Global */
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Navbar */
+.navbar .nav-link {
+  font-size: 15px;
+  color: #444 !important;
+}
+.navbar .nav-link:hover {
+  color: #007bff !important;
+}
+.search-box {
+  border-radius: 50px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+/* Filters */
+.filters {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+}
+.filter-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+}
+.form-check-label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Doctor Cards */
+.doctor-cardpage {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+.doctor-cardpage:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+.doctor-cardpage h5 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.doctor-cardpage p {
+  font-size: 14px;
+}
+.doctor-img {
+  max-width: 225px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  height: 150px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  max-width: 220px;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Pagination */
+.pagination .page-link {
+  color: #007bff;
+  border: none;
+  font-size: 14px;
+}
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-radius: 8px;
+}
+/**********************Doctors Profile Styling**************/
+
+
+.card h3 {
+  font-weight: 600;
+}
+
+.calendar .col {
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calendar .col:hover {
+  background: #e9ecef;
+}
+.doctors-profile h5
+{
+  padding:22px 0;
+}
+.specia li
+{
+  padding:12px;
+}
+/******************Appointment Styling*****************/
+
+/* Breadcrumb */
+.breadcrumb {
+  background: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  color: #6c757d;
+}
+
+/* Inputs */
+.custom-input {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  padding: 10px 14px !important;
+  font-size: 15px;
+}
+.custom-input:focus {
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 0 2px rgba(13,110,253,.2) !important;
+}
+
+/* Payment radio buttons */
+.list-group-item {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.list-group-item:hover {
+  background: #f9f9f9;
+}
+
+/* Button */
+.confirm-btn {
+  background-color: #0d6efd;
+  border-radius: 50px;
+  font-weight: 500;
+  padding: 12px 0;
+  border: none;
+}
+.confirm-btn:hover {
+  background-color: #0056d2;
+}
+/**************************Doctors profile Dashboard Styling*****************************/
+:root {
+  --primary-color: #1193d4;
+}
+git /* Sidebar */
+.sidebar {
+  width: 260px;
+  background: #fff;
+}
+
+.sidebar .profile-img {
+  width: 48px;
+  height: 48px;
+  background: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDxQoJw7T0mfoWznPFz6My5dAdhWOaDiPyKjpa3OXvbTBSZeir_L0UziLvlnVw1H7Vgn-zmjFem2AxSGHjksJnaWOc5_GSl-xxiNBHUL10jttV3xBpZRmYAKV19wGeupi0oWBg1epAS_CCIFDPkO5L6pU3f8RSBJi2gJ3R09iImdm2Iyh7r5LZCyX86odAd0OEKjVSkDjPhv-lASf4bOVaaPpq-Q-REoSSiiRYJoVxvtBCX3pEjiT4uK9j3syFr6Vk5kmftI8NtxJc") center/cover no-repeat;
+}
+
+.sidebar .nav-link {
+  border-radius: .5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+  background: #f8f9fa;
+}
+
+.sidebar .nav-link.active {
+  background: #e7f3fb;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Patient images */
+.patient-img, .query-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.patient-img {
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAoU6nzztJBsiaaH_tSdp2f3-cbgR5TWmumJBDskq0OqU9oMc4Ub30DRdciaj5QJhWg9LluiGHmwF8DleY6i34MNXJnorQepkoCcHHbFLylFiTe5S6soOEmzbdCtcUHbcZtJ3gKfifH_aVooJ8PoktTAFfVQXLchouGl6w5X_PVldaYKnZ45Ls5sfIg2WmGXkXpaifEnsBiRjzYj6brX6SO7SEi85LRj1BBGe1euOwnspgRTELT0r0OGVgdZLF1ByGjQx9CgiWesXs");
+}
+
+.query-img {
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAcGZbv45zsww3hsXqmuJmS7fcahM8Yzx05eCnD9fE4-cz40WBjLu0PiG415GrpoKm5cHown6G6f6phjObpcOKDU944OAEyVjMumKWlZJLR4FoYS8InTKOaq7ezPmLIxJBwQPsQTmL0Dbu8kEtGWnBcB9wewe3JBRU_QzHkG6IuNg62Fjfg9oeIqPIKAAlpF483Wii5hakoYtm3vEJ6Sla9i4r6VvABShbuGFzC-nXFV974EDM2dgc4hDWNA0gqLO2pwj3YCq49RNY");
+}
+/******************************************User Profile Styling**************************************/
+:root {
+  --primary-color: #0579c7;
+  --sidebar-bg: #ffffff;
+  --sidebar-hover: #f5f7fa;
+  --sidebar-active-bg: #e9f3fb;
+  --text-muted: #6c757d;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: var(--sidebar-bg);
+  border-right: 1px solid #e5e7eb;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+.sidebar .nav-link {
+  color: #495057;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0.65rem 0.75rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar .nav-link:hover {
+  background: var(--sidebar-hover);
+  color: var(--primary-color);
+}
+
+.sidebar .nav-link.active {
+  background: var(--sidebar-active-bg);
+  color: var(--primary-color);
+  font-weight: 600;
+  border-left: 4px solid var(--primary-color);
+  padding-left: 0.5rem;
+}
+
+/* Avatar */
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 6px;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background-color: #0466a9;
+  border-color: #0466a9;
+}
+
+/* Tabs */
+.nav-tabs {
+  border: none;
+  gap: 1.5rem;
+}
+.nav-tabs .nav-link {
+  border: none;
+  background: transparent;
+  color: #6c757d;
+  font-weight: 500;
+}
+.nav-tabs .nav-link.active {
+  color: var(--primary-color);
+  font-weight: 600;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+/* Forms */
+.form-control,
+.form-select,
+textarea.form-control {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 0.65rem 0.75rem;
+  font-size: 14px;
+}
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.15rem rgba(5, 121, 199, 0.25);
+}
+
+/* Section titles */
+h1, h2, h5 {
+  color: #1f2937;
+}
+h1.h3 {
+  font-weight: 700;
+}
+h2.h5 {
+  font-weight: 600;
+}
+
+/* Update Profile button */
+form button.btn {
+  min-width: 150px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+  .sidebar {
+    display: none !important;
+  }
+}
+
+

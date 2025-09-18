@@ -1,10 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Header from "@/components/header/header";
+import HeroSection from "@/components/hero/hero";
+
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-    <h1>Jeelan</h1>
-    </div>
+   <>
+   <Header />
+   <HeroSection />
+   </>
   );
 }
