@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Applications/XAMPP/xamppfiles/htdocs/nad/html2pdf/dev/spenzohtml/app/not-found.js"],"sourcesContent":["export default function NotFound() {\n    return (\n        <div>\n            <h1>\n                Page Not Found\n            </h1>\n        </div>\n    );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;kBACG,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAKhB","debugId":null}}]
+}
