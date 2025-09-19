@@ -92,14 +92,21 @@
               </div>
             </div>
 
-            <nav class="nav flex-column">
-              <a class="nav-link active" href="#"><span class="material-symbols-outlined me-2">home</span>Home</a>
-              <a class="nav-link" href="#"><span class="material-symbols-outlined me-2">search</span>Find Doctors</a>
-              <a class="nav-link" href="#"><span class="material-symbols-outlined me-2">videocam</span>Video Consult</a>
-              <a class="nav-link" href="#"><span class="material-symbols-outlined me-2">pill</span>Medicines</a>
-              <a class="nav-link" href="#"><span class="material-symbols-outlined me-2">science</span>Lab Tests</a>
-              <a class="nav-link" href="#"><span class="material-symbols-outlined me-2">stethoscope</span>Surgeries</a>
-            </nav>
+           <div class="sidebar d-flex flex-column">
+  <a href="#dashboard" class="nav-link active">
+    <i class="bi bi-house-door"></i> Dashboard
+  </a>
+  <a href="#appointments" class="nav-link">
+    <i class="bi bi-calendar-check"></i> Appointments
+  </a>
+  <a href="#patients" class="nav-link">
+    <i class="bi bi-people"></i> Patients
+  </a>
+  <a href="#settings" class="nav-link">
+    <i class="bi bi-gear"></i> Settings
+  </a>
+</div>
+
 
             <div class="mt-4">
               <button class="btn btn-primary w-100 mb-2">Book Appointment</button>
@@ -191,5 +198,19 @@
 
     <!-- Bootstrap JS (with Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+  // Sidebar active state toggle
+  const sidebarLinks = document.querySelectorAll(".sidebar .nav-link");
+
+  sidebarLinks.forEach(link => {
+    link.addEventListener("click", function() {
+      // Remove active from all
+      sidebarLinks.forEach(item => item.classList.remove("active"));
+      // Add active to clicked
+      this.classList.add("active");
+    });
+  });
+</script>
+
   </body>
 </html>
